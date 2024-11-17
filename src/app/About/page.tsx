@@ -1,5 +1,6 @@
-import CardComp from "@/components/CardComp";
 import Image from "next/image";
+import { CardTeacher } from "@/components/CardTeacher";
+
 
 
 const About = () => {
@@ -62,11 +63,11 @@ const About = () => {
           </p>
         </div>
       </div>
-      {/* <div className="mx-60 mt-10 grid grid-cols-3 gap-10">
-        <CardComp />
-        <CardComp />
-        <CardComp program={undefined} />
-      </div> */}
+      <div className="md:mx-60 mt-10 grid md:grid-cols-3 gap-10">
+        <CardTeacher imageSrc={""} altText={""} name={""} description={""} />
+        <CardTeacher imageSrc={""} altText={""} name={""} description={""} />
+        <CardTeacher imageSrc={""} altText={""} name={""} description={""} />
+      </div>
     </div>
   );
 };

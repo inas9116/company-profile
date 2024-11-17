@@ -19,16 +19,16 @@ const Program = () => {
             receive a certificate as an assessment of their progress.
           </p>
         </div>
-        <div className="my-10 grid md:grid-cols-2 gap-20">
+        <div className="md:my-10 grid md:grid-cols-2 md:gap-20">
           <div className="flex-col rounded-xl border-2 border-solid border-black text-center">
             <Image
               src="/kids2.jpg"
               alt="jpg"
               width={500}
               height={500}
-              className="justify-self-center rounded-xl"
+              className="justify-self-center rounded-xl sm:w-250 sm:h250"
             />
-            <div className="p-10">
+            <div className="md:p-10">
               <h1 className="md:text-4xl font-bold">TENOR KIDS</h1>
               <p className="pt-5 md:text-2xl">
                 Tenor Kids is a comprehensive eight-level English course for
@@ -49,7 +49,7 @@ const Program = () => {
               height={500}
               className="justify-self-center rounded-xl"
             />
-            <div className="p-10">
+            <div className="md:p-10">
               <h1 className="md:text-4xl font-bold">TENOR TEEN</h1>
               <p className="pt-5 md:text-2xl">
                 Tenor Teen is a comprehensive English course specifically
@@ -63,7 +63,7 @@ const Program = () => {
             </div>
           </div>
         </div>
-        <div className=" grid md:grid-cols-2 gap-20">
+        <div className=" grid md:grid-cols-2 md:gap-20">
           <div className="flex-col rounded-xl border-2 border-solid border-black text-center mb-10">
             <Image
               src="/adult.jpg"
@@ -73,7 +73,7 @@ const Program = () => {
               className="justify-self-center rounded-xl"
             />
             
-            <div className="p-10">
+            <div className="md:p-10">
               <h1 className="md:text-4xl font-bold">TENOR ADULT</h1>
               <p className="pt-5 md:text-2xl">
                 Tenor Adults uses a learning system that allows you to learn
@@ -93,7 +93,7 @@ const Program = () => {
               height={500}
               className="justify-self-center rounded-xl"
             />
-            <div className="p-10">
+            <div className="md:p-10">
               <h1 className="md:text-4xl font-bold">TENOR BUSINESS</h1>
               <p className="pt-5 md:text-2xl">
                 Whatever your business needs, it starts with your teams talking.

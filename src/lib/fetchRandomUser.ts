@@ -17,7 +17,7 @@ export interface RandomUser {
 
 export const fetchRandomUser = async (): Promise<RandomUser[]> => {
   const response = await axios.get('https://randomuser.me/api/', {
-    params: { results: 10 }, // Mengambil 10 user
+    params: { results: 6 },
   });
   return response.data.results as RandomUser[];
 };

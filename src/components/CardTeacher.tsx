@@ -25,8 +25,8 @@ export const CardTeacher: React.FC<CardComProps> = ({
         <Image
           src={imageSrc}
           alt={altText}
-          width={600}
-          height={600}
+          width={400}
+          height={400}
           className="object-cover"
         />
       </CardHeader>
