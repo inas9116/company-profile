@@ -20,7 +20,7 @@ export const CardTeacher: React.FC<CardComProps> = ({
   description,
 }) => {
   return (
-    <Card className="bg-transparent">
+    <Card className="bg-transparent border-2 border-black">
       <CardHeader>
         <Image
           src={imageSrc}

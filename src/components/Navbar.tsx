@@ -22,9 +22,9 @@ const Navbar = () => {
           </Link>
           <div className="flex items-center md:hidden" onClick={toggleMenu}>
             {isOpen ? (
-              <AiOutlineClose size={30} color="white" />
+              <AiOutlineClose size={50} color="white" />
             ) : (
-              <GiHamburgerMenu size={30} color="white" />
+              <GiHamburgerMenu size={50} color="white" />
             )}
           </div>
           <div

@@ -58,13 +58,11 @@ const ReviewCard = ({
     <figure
       className={cn(
         "relative w-80 cursor-pointer overflow-hidden rounded-xl border p-4",
-        // light styles
         "border-gray-950/[.1] bg-gray-950/[.01] hover:bg-gray-950/[.05]",
-        // dark styles
         "dark:border-gray-50/[.1] dark:bg-gray-50/[.10] dark:hover:bg-gray-50/[.15]",
       )} 
     >
-      <div className="flex flex-row items-center gap-2 ">
+      <div className="flex flex-row items-center gap-2 bg-gradient-to-br from-teal-300 to-blue-900 ">
         <img className="rounded-full" width="32" height="32" alt="" src={img} />
         <div className="flex flex-col">
           <figcaption className="text-xl font-medium dark:text-white">

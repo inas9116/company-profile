@@ -19,7 +19,7 @@ const Program = () => {
             receive a certificate as an assessment of their progress.
           </p>
         </div>
-        <div className="md:my-10 grid md:grid-cols-2 md:gap-20">
+        <div className="my-2 md:my-10 grid md:grid-cols-2 md:gap-20">
           <div className="flex-col rounded-xl border-2 border-solid border-black text-center">
             <Image
               src="/kids2.jpg"
@@ -63,7 +63,7 @@ const Program = () => {
             </div>
           </div>
         </div>
-        <div className=" grid md:grid-cols-2 md:gap-20">
+        <div className="my-2 grid md:grid-cols-2 md:gap-20">
           <div className="flex-col rounded-xl border-2 border-solid border-black text-center mb-10">
             <Image
               src="/adult.jpg"
@@ -103,6 +103,7 @@ const Program = () => {
                 country where the language is spoken.
               </p>
             </div>
+            
           </div>
         </div>
       </div>
