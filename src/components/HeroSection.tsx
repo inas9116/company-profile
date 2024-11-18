@@ -4,10 +4,10 @@ import { Button } from "./ui/button";
 
 const HeroSection = () => {
   return (
-    <section className="container mx-auto">
-      <div className="relative h-screen md:w-full">
+    <section className="w-full h-screen">
+      <div className="relative h-full w-full">
         <video
-          className="absolute -z-10 h-full w-full rounded-xl object-cover opacity-100"
+          className="fixed top-0 left-0 -z-10 h-full w-full object-cover opacity-100"
           autoPlay
           muted
           loop

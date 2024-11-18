@@ -22,7 +22,7 @@ const Program = () => {
         <div className="my-2 md:my-10 grid md:grid-cols-2 md:gap-20">
           <div className="flex-col rounded-xl border-2 border-solid border-black text-center">
             <Image
-              src="/kids2.jpg"
+              src="/images/kids2.jpg"
               alt="jpg"
               width={500}
               height={500}
@@ -43,7 +43,7 @@ const Program = () => {
           </div>
           <div className="flex-col rounded-xl border-2 border-solid border-black text-center">
             <Image
-              src="/teen2.jpg"
+              src="/images/teen2.jpg"
               alt="jpg"
               width={500}
               height={500}
@@ -66,7 +66,7 @@ const Program = () => {
         <div className="my-2 grid md:grid-cols-2 md:gap-20">
           <div className="flex-col rounded-xl border-2 border-solid border-black text-center mb-10">
             <Image
-              src="/adult.jpg"
+              src="images/adult.jpg"
               alt="jpg"
               width={500}
               height={500}
@@ -87,7 +87,7 @@ const Program = () => {
           </div>
           <div className="flex-col rounded-xl border-2 border-solid border-black text-center mb-10">
             <Image
-              src="/business.jpg"
+              src="images/business.jpg"
               alt="jpg"
               width={500}
               height={500}
